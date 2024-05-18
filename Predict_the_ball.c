@@ -36,7 +36,7 @@ int main ()
        }
        if(guess == number){
               printf("You got it! \n");
-               printf("Accumulated runs are : %d", sum);
+               printf("Accumulated runs are : %d\n", sum);
        }
          }while (guess != number);
             } 
