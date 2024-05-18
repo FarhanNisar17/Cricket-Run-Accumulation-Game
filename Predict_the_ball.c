@@ -20,7 +20,7 @@ int main ()
     number= rand()%6+1;
 
 
-    printf("Guess the outcome of ball? \n");
+    printf("Guess the outcome of ball?(1,2,3,4,5,6) \n");
         scanf("%d", &guess);
 
        do{ 
@@ -40,7 +40,7 @@ int main ()
        }
          }while (guess != number);
             } 
-            else if (b=2){
+            else if (b==2){
       printf("Thank You for your time");
                 }  
 return 0;
